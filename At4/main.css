@@ -1,0 +1,26 @@
+.circulo {
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+    background:rgb(130, 27, 1);
+    animation: moverDireita 5s linear alternate
+    
+}
+
+.circulo:hover {
+  right:0;
+}
+ 
+ body {
+   display: flex;
+   justify-content: center ;
+   align-items: center;
+   padding-top: 35vh;
+ }
+
+ @keyframes moverDireita {
+  100% {
+    transform: translateX(500px);
+  }
+  
+}

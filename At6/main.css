@@ -1,0 +1,37 @@
+.quadrado {
+    width:160px;
+    height:160px;
+    background:rgb(130, 27, 1);
+    animation: moverDireita 5s linear alternate;
+}
+    
+
+
+.quadrado:hover {
+  right:0;
+}
+ 
+ body {
+   display: flex;
+   justify-content: center ;
+   align-items: center;
+   padding-top: 35vh;
+ }
+
+ @keyframes moverDireita {
+  0% {
+    transform: rotate(360deg);
+}
+    0%  {background-color: #A100C7;}
+    12.5% {background-color: #00A1E6;}
+    25% {background-color: #A1E633;}
+    37.5% {background-color: #E6B02E;}
+    50% {background-color: #DC0063;}
+    62.5% {background-color: beige;}
+    75% {background-color: rgb(89, 27, 96);}
+    87.5% {background-color: rgb(24, 18, 126);}
+    100% {background-color: rgb(36, 145, 127);}
+}
+
+  
+  
